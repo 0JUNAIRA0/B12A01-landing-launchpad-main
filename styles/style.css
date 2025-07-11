@@ -39,6 +39,10 @@
     border: none;
     gap: 10px;
 }
+.btn-primary:hover{
+    background-color: olive;
+}
+
 .spn{
     color: white;
     font-family: Raleway;
@@ -69,3 +73,75 @@
     line-height: auto;
     color: #252432;
 }
+
+/* Action Section */
+.action{
+    background-color: white;
+    padding: 60px 20px;
+    font-family: Raleway;
+}
+.action-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1140;
+    /* gap: 40px; */
+}
+.action-text{
+    flex: 1;
+    /* min-width: auto; */
+    min-width: 250px;
+}
+
+.action-text h2{
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    color: #252432;
+    line-height: normal;
+}
+.action-text p{
+       font-family: Raleway;
+       font-size: 25px;
+       font-style: normal;
+       font-weight: 400;
+       /* line-height: auto; */
+}
+.live-btn{
+     background-color: #4E47FF;
+  color: white;
+
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 8px;
+
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  width: fit-content;
+  border: none;
+  display: flex;
+  height: 48px;
+  padding: 12px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.live-btn:hover {
+  background-color: olive;
+}
+
+.actionImage{
+     width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
